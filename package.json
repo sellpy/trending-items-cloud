@@ -20,7 +20,8 @@
   "homepage": "https://github.com/sellpy/trending-items-cloud#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-tagcloud": "^2.3.1"
   },
   "devDependencies": {
     "eslint": "^8.22.0",
