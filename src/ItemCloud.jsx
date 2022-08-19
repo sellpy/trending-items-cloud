@@ -35,22 +35,22 @@ const customRenderer = (tag, size, color) => (
     style={{
       animation: 'blinker 3s linear infinite',
       animationDelay: `${Math.random() * 2}s`,
-      fontSize: `${size / 2}em`,
+      width: `${size * 20}px`,
+      height: `${size * 20}px`,
       border: `2px solid ${color}`,
+      borderRadius: '50%',
       margin: '3px',
       padding: '3px',
       display: 'inline-block',
       color: 'white',
     }}
-  >
-    {tag.value}
-  </span>
+  ></span>
 )
 
 export const ItemCloud = () => {
   return (
     <TagCloud
-      style={{ width: '300px' }}
+      style={{ maxWidth: '600px' }}
       tags={data}
       minSize={1}
       maxSize={5}
