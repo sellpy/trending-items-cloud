@@ -2,7 +2,7 @@
   "name": "trending-items-cloud",
   "version": "1.0.0",
   "description": "Trending items at Sellpy displayed as a cloud",
-  "main": "index.js",
+  "main": "public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/sellpy/trending-items-cloud/issues"
   },
-  "homepage": "https://github.com/sellpy/trending-items-cloud#readme"
+  "homepage": "https://github.com/sellpy/trending-items-cloud#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  }
 }
