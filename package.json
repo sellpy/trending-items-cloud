@@ -2,8 +2,9 @@
   "name": "trending-items-cloud",
   "version": "1.0.0",
   "description": "Trending items at Sellpy displayed as a cloud",
-  "main": "public/index.html",
+  "main": "index.js",
   "scripts": {
+    "start": "npx parcel public/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
