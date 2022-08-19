@@ -1,0 +1,19 @@
+{
+  "name": "trending-items-cloud",
+  "version": "1.0.0",
+  "description": "Trending items at Sellpy displayed as a cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sellpy/trending-items-cloud.git"
+  },
+  "author": "Jonas Stendahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sellpy/trending-items-cloud/issues"
+  },
+  "homepage": "https://github.com/sellpy/trending-items-cloud#readme"
+}
